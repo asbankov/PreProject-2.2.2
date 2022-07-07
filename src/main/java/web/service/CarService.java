@@ -7,4 +7,6 @@ import java.util.List;
 public interface CarService {
     void add(String model, int productionYear, int distance);
     List<Car> carsList(int quantity);
+    void addFive();
+    boolean isEmpty();
 }
